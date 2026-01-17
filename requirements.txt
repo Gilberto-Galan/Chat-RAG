@@ -1,0 +1,10 @@
+torch
+torchvision
+transformers
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+pypdf
+langchain-text-splitters
