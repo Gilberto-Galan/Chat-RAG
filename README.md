@@ -18,3 +18,14 @@ Este proyecto permite chatear con cualquier documento PDF de forma local utiliza
 ## 🧠 Modelos utilizados
 - **Embeddings:** `all-MiniLM-L6-v2`
 - **LLM:** `google/flan-t5-base`
+
+## 🛠️ Tecnologías y Herramientas
+
+Este proyecto fue construido utilizando un stack de IA moderna optimizado para ejecución local:
+
+* **[LangChain / LangChain-Classic](https://github.com/langchain-ai/langchain):** Framework principal utilizado para orquestar la lógica del RAG, gestionar los prompts y conectar el recuperador con el modelo de lenguaje.
+* **[Hugging Face Transformers](https://huggingface.co/docs/transformers/index):** Proporciona la infraestructura para cargar y ejecutar el modelo **Flan-T5-Base** (LLM) y el modelo de embeddings **all-MiniLM-L6-v2**.
+* **[FAISS (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss):** Biblioteca de alto rendimiento para la búsqueda de similitudes en espacios vectoriales, utilizada para almacenar e indexar los fragmentos del libro.
+* **[PyTorch](https://pytorch.org/):** Backend de computación tensorial necesario para ejecutar los modelos de Deep Learning en la CPU/GPU.
+* **[PyPDF](https://pypdf.readthedocs.io/):** Librería encargada de la extracción y procesamiento de texto desde los archivos PDF originales.
+* **[Sentence-Transformers](https://sbert.net/):** Utilizada para generar representaciones vectoriales (embeddings) de alta calidad que permiten a la IA "entender" el contexto de las preguntas.
