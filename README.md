@@ -1,5 +1,10 @@
 # 📚 Personal RAG Chatbot (Local AI)
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![LangChain](https://img.shields.io/badge/🦜🔗-LangChain-black?style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
 Este proyecto permite chatear con cualquier documento PDF de forma local utilizando técnicas de **Retrieval-Augmented Generation (RAG)**.
 
 ## 🚀 Características
